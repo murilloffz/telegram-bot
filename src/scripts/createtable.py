@@ -11,8 +11,13 @@ print(conn1.connection)
 #     '''CREATE TABLE Professional (
 #     ID int NOT NULL,
 #     Name varchar(50),
-#     Phone varchar(20) NOT NULL,
+#     Phone varchar(20),
 #     PRIMARY KEY (ID));
 #     '''))
-
+# conn1.execute_query(
+#     '''CREATE TABLE Consulta (
+#     ID int NOT NULL,
+#     City varchar(40),
+#     Day varchar(20));
+#     ''')
 print(conn1.execute_query("SHOW TABLES"))
