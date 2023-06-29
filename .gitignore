@@ -5,6 +5,7 @@ __pycache__/
 
 # VS Code
 .vscode
+run.bat
 
 # C extensions
 *.so
